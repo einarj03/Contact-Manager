@@ -35,6 +35,11 @@
                 android:layout_width="fill_parent"
                 android:layout_height="match_parent">
 
+                <ScrollView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/scrollView" >
+
                 <LinearLayout
                     android:id="@+id/tabCreator"
                     android:layout_width="fill_parent"
@@ -113,6 +118,8 @@
 
                 </LinearLayout>
 
+                </ScrollView>
+
                 <LinearLayout
                     android:id="@+id/tabContactList"
                     android:layout_width="match_parent"
@@ -138,6 +145,7 @@
                 </LinearLayout>
 
             </FrameLayout>
+
         </LinearLayout>
     </TabHost>
 
